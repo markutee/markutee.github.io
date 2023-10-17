@@ -219,3 +219,43 @@ header h1 {
         page-break-after: avoid;
     }
 }
+
+li {
+    list-style-type: none;
+  }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image-container{
+	position: relative;
+	display: inline-block;
+}
+h3 {
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	margin:0;
+	background-color: gray;
+	color: white;
+	padding: 5px;
+	text-align: left;
+}
+html{
+	color: #222;
+	font-size:1em;
+	line-height: 1.4;
+}
+::moz-selection{
+	background:#b3d4fc;
+	text-shadow: none;
+	
+}
+::selection{
+	background: #b3d4fc;
+	text-shadow: none;
+}
