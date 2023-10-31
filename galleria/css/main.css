@@ -230,4 +230,16 @@ figcaption{
 	left: 0px;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+}
+ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+h3{
+	margin: 5px 10px;
+}
+li {
+    list-style-type: none;
+    position: relative;
 }
