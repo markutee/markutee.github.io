@@ -223,6 +223,7 @@ header h1 {
 
 figure{
 	position: relative;
+	margin: 13px;
 }
 figcaption{
 	position: absolute;
@@ -235,6 +236,11 @@ figcaption{
 ul{
 	display: flex;
 	flex-wrap: wrap;
+	list-style-type: none;
+	justify-content: space-evenly;
+	padding-left:20px;
+	padding-right:20px;
+	
 }
 h3{
 	margin: 5px 10px;
@@ -242,4 +248,22 @@ h3{
 li {
     list-style-type: none;
     position: relative;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header{
+	width: 100%;
+}
+main{
+	width: 80%;
+}
+aside{
+	width: 20%;
+}
+@media screen and (max-width: 800px) {
+    header, main.primary-color, aside.default
+    {width: 100%;}
 }
