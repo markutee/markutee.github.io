@@ -219,64 +219,15 @@ header h1 {
         page-break-after: avoid;
     }
 }
+/* oma koodi */
 
-li {
-    list-style-type: none;
-  }
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.image-container{
+figure{
 	position: relative;
-	display: inline-block;
 }
-h3 {
+figcaption{
 	position: absolute;
-	top: 0;
-	left:0;
-	right:0;
-	margin:0;
-	background-color: gray;
+	top: 0px;
+	left: 0px;
 	color: white;
-	padding: 5px;
-	text-align: left;
-}
-html{
-	color: #222;
-	font-size:1em;
-	line-height: 1.4;
-}
-::moz-selection{
-	background:#b3d4fc;
-	text-shadow: none;
-	
-}
-::selection{
-	background: #b3d4fc;
-	text-shadow: none;
-}
-aside {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-	width: 100%;
-	height: 100%;
-	right: 100%;
-	
-}
-
-@media screen and (max-width: 768px) {
-	.ad-box{
-		position: absolute;
-		bottom:0;
-		right:0;
-		top:100px;
-		left:auto;
-		width: 25%;
-		height:100%;
-	}
+	background-color: rgba(0, 0, 0, 0.5);
 }
