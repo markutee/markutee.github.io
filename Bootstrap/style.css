@@ -1,0 +1,52 @@
+
+[class*="col"]:not(.navbar [class*="col"])
+{
+padding: 1rem;
+background-color: #196b8e;
+border: 2px solid #fff;
+color: #fff;
+text-align: center;
+
+}
+.bg-body-tertiary{
+    background-color: black;
+}
+.navbar{
+    
+    
+}
+body{
+    background-color: #1ac4e2;
+    
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    padding-top: 5px;
+
+}
+.btn-link{
+    background-color: darkorchid;
+    color: aqua;
+    
+}
+footer{
+  background-color: rgb(143, 124, 95);
+  padding: 10px ;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+}
+.custom-card{
+    margin-bottom: 20px;
+    background-color: rgb(247, 223, 192);
+    
+}
+aside{
+  
+    ;
+}
