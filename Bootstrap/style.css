@@ -2,10 +2,12 @@
 [class*="col"]:not(.navbar [class*="col"])
 {
 padding: 1rem;
-background-color: #196b8e;
+background-color: #a90861;
 border: 2px solid #fff;
 color: #fff;
 text-align: center;
+border-radius: 20px;
+margin-top: 10px;
 
 }
 .bg-body-tertiary{
@@ -16,7 +18,7 @@ text-align: center;
     
 }
 body{
-    background-color: #1ac4e2;
+    background-color: rgb(58, 3, 58);
     
 }
 .btn-group{
@@ -26,6 +28,8 @@ body{
     margin-left: 16%;
     margin-right: 16%;
     padding-top: 5px;
+   
+    gap: 50px;
 
 }
 .btn-link{
@@ -34,19 +38,31 @@ body{
     
 }
 footer{
-  background-color: rgb(143, 124, 95);
+  background-color: rgb(95, 0, 190);
   padding: 10px ;
   position: relative;
   bottom: 0;
   width: 100%;
-  
+  bottom: 0;
+  display: flex; flex-wrap: wrap; justify-content: center;
+  margin-top: auto;
 }
 .custom-card{
     margin-bottom: 20px;
-    background-color: rgb(247, 223, 192);
+    background-color: rgb(88, 3, 125);
+    
+    border-radius: 20px
     
 }
+.card-title{
+    color: rgb(255, 255, 255)
+}
+.card-text{
+    color: aliceblue
+}
+.card-subtitle{
+    color: aliceblue
+}
 aside{
-  
-    ;
+ 
 }
