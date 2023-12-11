@@ -1,0 +1,207 @@
+header{
+    background-image: url("../kuvat/pokeball.webp");
+    background-size: 100%;
+    background-position: cover;
+    margin-top: 80px;
+    padding: 160px;
+}
+h1.navbar-brand{
+    
+    width: fit-content;
+    margin: auto;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+div#carouselExampleIndicators {
+    border-bottom: solid; 
+    border-width: 1px;
+    
+}
+
+
+h1.navbar-brand:hover{
+    color: #fff;
+}
+a#navbarDropdown{
+    color: #fff;
+}
+a#navbarDropdown:hover{
+    color: #c61935;
+}
+a.nav-link{
+    color: #fff;
+}
+a.nav-link:hover{
+    color:#c61935;
+}
+
+nav{
+    display: flex; flex-wrap: wrap; justify-content: center;
+    margin: 0;
+  
+}
+
+.carousel-inner img {
+    width: 60%; 
+    height: 50%; 
+    object-fit: cover; 
+    margin: 0 auto; 
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+.carousel-control-next, .carousel-control-prev{
+    color: black;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    
+    background-color: #c61935;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+body{
+    background-image: url("../kuvat/pokemonni.jpg");
+    background-size: 100%;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: black;
+    margin: 30px;
+    text-decoration: underline;
+    font-size: 40px;
+ 
+}
+
+
+.display-4{
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.h2p{
+    text-align: center;
+    color: Black;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-top: 9px;
+    
+}
+p{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 50px;
+
+}
+
+main{
+    text-align: center;
+    background-color: 	#d8d9db;
+    max-width: 75%;
+    margin: auto;
+    display: flex; flex-wrap: wrap; justify-content: center;
+}
+
+section{
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid; border-width: 1px;
+
+
+    
+}
+
+.bi-star-fill{
+    color: #c61935;
+    
+}
+
+a.btn.btn-primary.btn-lg{
+    background-color: #c61935;
+    border-color: #c61935;
+    border-radius: 40px;
+    opacity: 0.8;
+    
+}
+
+
+a.btn.btn-primary.btn-lg:hover{
+    background-color: #c61935;
+    border-color: #c61935;
+    border-radius: 40px;
+    opacity: 1;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+
+hr{
+    opacity: 0.3;
+  
+}
+
+.col-md-7{
+    padding: 20px;
+}
+
+.lead{
+    font-weight: 100;
+   text-align: center;
+}
+
+aside{
+  
+}
+aside.h4{
+    font-family: 'Oswald', sans-serif;
+}
+.card-img-top-2{
+    height:190px;
+}
+
+
+footer{
+    background-color: #464646;
+    padding: 20px;
+    max-width: 75%;
+    margin: auto;
+}
+footer p{
+    color:#fff;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
