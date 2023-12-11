@@ -76,7 +76,7 @@ nav{
 body{
     background-image: url("../kuvat/pokemonni.jpg");
     background-size: 100%;
-
+    max-width: 75%;
 }
 
 body::before {
@@ -130,8 +130,7 @@ p{
 main{
     text-align: center;
     background-color: 	#d8d9db;
-    max-width: 75%;
-    margin: auto;
+  
     display: flex; flex-wrap: wrap; justify-content: center;
 }
 
@@ -196,8 +195,6 @@ aside.h4{
 footer{
     background-color: #464646;
     padding: 20px;
-    max-width: 75%;
-    margin: auto;
 }
 footer p{
     color:#fff;
